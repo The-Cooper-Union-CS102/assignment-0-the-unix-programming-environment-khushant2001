@@ -8,7 +8,9 @@ echo "hello bash" > myfile
 cat myfile
 cd ..
 cp -r mydir2 mydir3
-ls
+ls -a
 find . | sort -r
-
+:wq
+chmod +x "solution.sh"
+bash solution.sh 
 
